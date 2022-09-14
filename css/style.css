@@ -1,0 +1,88 @@
+/* ALL COMMON CSS START  */
+
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Uchen', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* ALL COMMON CSS END   */
+
+/* NAVBAR START  */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all  .4s ease-in-out;
+    margin-bottom: 5px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all .3s ease-in-out;
+}
+
+.navy{
+    padding:1.3rem ;
+    transition: all linear .5s;
+    color: black;
+}
+.navy:hover{
+    background: grey;
+    padding: 1.3rem;
+    color: #ffffff;
+    border-radius: 3rem;
+}
+.navy-item{
+    height: 8.6rem;
+    
+}
+/* NAVBAR END   */
+
+/* BACK TO TOP START  */
+#btn-back-to-top {
+    position: fixed;
+    z-index: 909;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+/* BACK TO TOP END   */
+
+/* Hero START  */
+.hero{
+    padding-top: 20px;
+}
+/* Hero END   */
+
+/* NAVBAR START  */
+
+/* NAVBAR END   */
